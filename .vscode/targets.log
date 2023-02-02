@@ -1,0 +1,348 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 27 15:27:34 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = plasma
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/brian/.gtkrc:/home/brian/.config/gtkrc
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/brian/.Xauthority
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/brian/workspace/propios/UTN/UTN-sensorial-front
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"7450e74c1d98800c7de6b9750cf2e1ce.es","_translationsConfigFile":"/home/brian/.config/Code/clp/7450e74c1d98800c7de6b9750cf2e1ce.es/tcf.json","_cacheRoot":"/home/brian/.config/Code/clp/7450e74c1d98800c7de6b9750cf2e1ce.es","_resolvedLanguagePackCoreLocation":"/home/brian/.config/Code/clp/7450e74c1d98800c7de6b9750cf2e1ce.es/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa","_corruptedFile":"/home/brian/.config/Code/clp/7450e74c1d98800c7de6b9750cf2e1ce.es/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+QT_EXCLUDE_GENERIC_BEARER = 1
+# environment
+JOURNAL_STREAM = 8:111979
+# environment
+XDG_CONFIG_DIRS = /home/brian/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+IM_CONFIG_PHASE = 1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/plasma.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/plasma:/home/brian/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'makefile', line 1)
+VERSION = 202108262230
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+XCURSOR_SIZE = 24
+# environment
+QT_SCREEN_SCALE_FACTORS = eDP-1=1;HDMI-1=1;DP-1=1;HDMI-2=1;
+# environment
+MANAGERPID = 2127
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = es_AR.UTF-8
+# environment
+VSCODE_CWD = /home/brian
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/brian/.sdkman/candidates/groovy/current/bin:/home/brian/.nvm/versions/node/v10.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/brian/workspace/openshift/minishift-1.34.3-linux-amd64:/home/brian/workspace/openshift/crc-linux-1.24.0-amd64:/usr/local/bin/go/bin/
+# environment
+MOZ_USE_XINPUT2 = 1
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+SESSION_MANAGER = local/brian-nalabs:@/tmp/.ICE-unix/2317,unix/brian-nalabs:/tmp/.ICE-unix/2317
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+SDKMAN_DIR = /home/brian/.sdkman
+# environment
+SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
+# environment
+NVM_BIN = /home/brian/.nvm/versions/node/v10.10.0/bin
+# environment
+BREAKPAD_DUMP_LOCATION = /home/brian/.config/Code/exthost Crash Reports
+# environment
+SDKMAN_PLATFORM = LinuxX64
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=74c6f118-77cc-465d-af40-4865f878242e&iid=74c6f118-77cc-465d-af40-4865f878242e&sid=74c6f118-77cc-465d-af40-4865f878242e","uploadToServer":true}
+# environment
+INVOCATION_ID = 6d44fed520d146058cea40ced42b83bf
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/brian/.gtkrc-2.0:/home/brian/.config/gtkrc-2.0
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = KDE
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-qo1rV1Kr2DgB/agent.2159
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/brian/workspace/propios/UTN/UTN-sensorial-front
+# environment
+KDE_SESSION_VERSION = 5
+# environment
+GROOVY_HOME = /home/brian/.sdkman/candidates/groovy/current
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 2211
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/brian
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/brian/.config/Code/CachedData/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa
+# environment
+LOGNAME = brian
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# environment
+KDE_FULL_SESSION = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 1
+# environment
+LC_TIME = es_AR.UTF-8
+# environment
+SDKMAN_VERSION = 5.11.0+644
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-746eed67-df1e-4a9d-a5b1-5d7a31f2e0ed.sock
+# environment
+XDG_SESSION_ID = 3
+# environment
+USER = brian
+# environment
+LC_MONETARY = es_AR.UTF-8
+# makefile
+.DEFAULT_GOAL := docker-build
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = es_AR.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = es:en_US
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b296f0cc-1.59.1-main.sock
+# makefile
+MAKEFLAGS = pqrRs
+# environment
+MFLAGS = -pqrRs
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/brian/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = es_AR.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/plasma.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = es_AR.UTF-8
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = es_AR.UTF-8
+# environment
+SDKMAN_CANDIDATES_DIR = /home/brian/.sdkman/candidates
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_AR.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = es_AR.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 13588
+# environment
+KDE_SESSION_UID = 1000
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=13/154=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66305, inode 4201781): 19 files, no impossibilities.
+
+ 
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+ 
+#  File has not been updated.
+
+docker-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 7):
+	docker build . -t utnsensorial/sensorial-front:${VERSION} --build-arg ARG_VERSION=${VERSION} 
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 11):
+	docker build . -f ./heroku/Dockerfile -t utnsensorial/sensorial-heroku:local
+	docker run -it -p 80:80 --rm --name test utnsensorial/sensorial-heroku:local
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-27 15:27:14.108707962
+#  File has been updated.
+#  Successfully updated.
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 238 B / avg = 8 B
+# current buf: size = 8162 B / used = 238 B / count = 27 / avg = 8 B
+
+# strcache performance: lookups = 34 / hit rate = 20%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/34=3%
+# Finished Make data base on Fri Aug 27 15:27:34 2021
+
+ 

@@ -1,0 +1,43 @@
+name: heroku
+
+on:
+  push:
+    branches: [master]
+    tags-ignore:
+      - "*"
+
+jobs:
+  
+  deploy-heroku:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: create-procfile-to-heroku
+      run: |
+        > Procfile
+        echo "web: npm start" >> Procfile
+        cat Procfile
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: ${{ secrets.HEROKU_APP }}
+        heroku_email: ${{ secrets.HEROKU_EMAIL }}
+
+
+  server-deploy-heroku:
+    needs: deploy-heroku
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: create-procfile-to-heroku
+      run: |
+        cd ./server
+        > Procfile
+        echo "web: npm run heroku-server" >> Procfile
+        cat Procfile
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        appdir: server
+        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+        heroku_app_name: ${{ secrets.HEROKU_APP_BASE }}
+        heroku_email: ${{ secrets.HEROKU_EMAIL }}
